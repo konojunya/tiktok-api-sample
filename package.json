@@ -1,0 +1,22 @@
+{
+  "name": "tiktok-api-sample",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "remix dev -c \"node server.js\"",
+    "build": "remix build"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.8.2",
+    "@remix-run/node": "^2.8.0",
+    "@remix-run/react": "^2.8.0",
+    "hono": "^4.0.9",
+    "isbot": "4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remix-hono": "^0.0.15"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.8.0"
+  }
+}
